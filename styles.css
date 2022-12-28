@@ -29,6 +29,10 @@ body {
     margin: 0 auto;
 }
 
+p {
+    margin: 0;
+}
+
 /* Header Start*/
 
 .header {
@@ -196,8 +200,6 @@ body {
 
 /* Benefits Section Start */
 
-.benefits {}
-
 .benefits__wrapper {
     height: 655px;
     box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
@@ -296,6 +298,8 @@ body {
 
 /* Benefits Section End */
 
+/* Cities Section Start */
+
 .cities__top {
     display: flex;
     height: 42px;
@@ -378,4 +382,88 @@ body {
 
 .cities__names {
     z-index: 1;
+}
+
+/* Cities Section End */
+
+/* Prefecture & Neighborhood Section Start */
+
+.prefecture-neighborhood__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.prefecture-neighborhood {
+    margin-top: 131px;
+}
+
+.prefecture {
+    display: flex;
+    width: 95%;
+    gap: 50px;
+    margin-right: 51px;
+}
+
+.neighborhood {
+    display: flex;
+    width: 95%;
+    gap: 50px;
+    margin-left: 47px;
+}
+
+.prefecture-neighborhood__image {
+    width: 500px;
+}
+
+.prefecture-neighborhood__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 26px;
+    margin-bottom: 49px;
+}
+
+.prefecture-neighborhood__card-title {
+    width: 500px;
+    font-family: "Lato_500";
+    color: #102746;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.prefecture-neighborhood__card-description {
+    width: 500px;
+    font-family: "Lato_400";
+    color: #102746;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Prefecture & Neighborhood Section End */
+
+.top-places {
+    margin-top: 139px;
+}
+
+.top-places__title {
+    position: relative;
+    width: 457px;
+    font-family: "Lato_500";
+    color: #102746;
+    font-size: 35px;
+    line-height: 42px;
+    margin: 0;
+}
+
+.top-places__title::after {
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+
+    width: 253px;
+    height: 3px;
+
+    background-color: #006DFE;
+    content: '';
 }
