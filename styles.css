@@ -407,13 +407,14 @@ p {
 
 .neighborhood {
     display: flex;
+    right: 0;
     width: 95%;
     gap: 50px;
     margin-left: 47px;
 }
 
 .prefecture-neighborhood__image {
-    width: 500px;
+    width: 480px;
 }
 
 .prefecture-neighborhood__card {
@@ -466,4 +467,18 @@ p {
 
     background-color: #006DFE;
     content: '';
+}
+
+.top-places__grid {
+    width: 100%;
+    margin-top: 64px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    gap: 60px
+}
+
+.top-places__grid-card-image {
+    width: 325px;
 }
