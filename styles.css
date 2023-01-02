@@ -554,10 +554,16 @@ p {
 
 /* Today Top Places Section End */
 
-/* Video Section End */
+/* Video Section Start */
+
+.video {
+    width: 100%;
+    height: 609px;
+}
 
 .video__wrapper {
     max-width: 1440px;
+    height: auto;
     margin: 0 auto;
     position: relative;
 }
@@ -568,4 +574,16 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.video__item iframe {
+    width: 100%;
+    height: 609px;
+    border: 0;
+}
+
+/* Video Section Start */
+
+.footer__wrapper {
+    background-color: #0E1D28;
 }
